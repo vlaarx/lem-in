@@ -1,0 +1,25 @@
+100
+## the first line is the amount of ants
+## lines below are rooms' names and coordinates (needed for visualisation of the
+graph); 'start' and 'end' comments indicate the starting and ending rooms
+##start
+A 0 8
+B 4 12
+C 10 6
+D 8 10
+E 8 2
+F 0 4
+G 4 0
+##end
+H 1 1
+## lines below are links between the rooms
+A-B
+A-E
+B-C
+C-D
+D-H
+D-E
+D-F
+E-F
+F-G
+G-H

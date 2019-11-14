@@ -1,0 +1,35 @@
+55
+##the first line is the amount of ants
+##lines below are rooms' names and coordinates(needed for visualisation of the
+graph); 'start' and 'end' comments indicate the starting and ending rooms
+Th 0 8
+Wed 4 12
+##start
+Mon 10 6
+Tue 8 10
+##end
+Sun 8 2
+Fr 0 4
+Sat 4 0
+## lines below are links between the rooms
+Mon-Tue
+Mon-Wed
+Mon-Th
+Mon-Fr
+Mon-Sat
+Mon-Sun
+Tue-Th
+Tue-Fr
+Tue-Sat
+Tue-Sun
+Tue-Wed
+Wed-Fr
+Wed-Sat
+Wed-Sun
+Wed-Th
+Th-Sun
+Th-Sat
+Th-Fr
+Fr-Sat
+Fr-Sun
+Sat-Sun
